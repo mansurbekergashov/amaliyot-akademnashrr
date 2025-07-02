@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akademnashr project</title>
+    
+    <!-- fonts -->
+
+    <!-- Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Roboto Condensed -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Michroma -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Favicon" />
+    <link rel="manifest" href="site.webmanifest" />
+
+    <!-- animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <!--header-->
+    <header class="header">
+        <div class="container header-container">
+            <a class="header-logo" href="index.html" data-aos="fade-right">
+                <img src="./images/akademnashr-logo.svg" alt="Logo" width="227" height="60">
+            </a>
+
+            <!--navbar-->
+            <div class="navbar-wrapper">
+                <nav>
+                    <ul class="header-links">
+                        <li data-aos="fade-up" data-aos-delay="100">
+                            <a class="header-link" href="#">Bosh sahifa</a>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="150">
+                            <a class="header-link" href="#">Kitobar</a>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="200">
+                            <a class="header-link" href="#">Aksiyalar</a>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="250">
+                            <a class="header-link" href="#">Kontaktlar</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!--ro`yhatdan o`tish -->
+                <button class="register" data-aos="fade-left">
+                    <a href="#" class="orange-button">Ro'yhatdan o`tish</a>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- main -->
+    <main>
+        <!-- birinchi - hero -->
+        <section class="hero">
+            <div class="container hero-container">
+                <div class="hero-content" data-aos="fade-right">
+                    <h2 class="hero-title">Pythonda dasturlash asoslari</h2>
+                    <p class="hero-paragraph">Dasturlash asoslariga oid o'zbek tilidagi ilk eng mukammal qo'llanma.
+                        Kitobning har bir bo'limi uchun maxsus video darslar yozilgan bo'lib,
+                        ularga kitobda ko'rsatilgan QR kod orqali o'tish mumkin
+                    </p>
+                    <a href="#" class="orange-button">Buyurtma berish</a>
+                </div>
+                <div>
+                   <img src="./images/pythonbook.png" alt="Python-book" width="510" height="510" data-aos="fade-left" class="pythonbook-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- ikkinchi - nega aynan akademnashr -->
+        <section class="reason">
+            <div class="container">
+                <h1 class="reason-title" data-aos="zoom-in">Nega aynan <br> akademnashr?</h1>
+                <ul class="cards">
+                    <li class="card" data-aos="fade-up" data-aos-delay="100">
+                        <span class="circle">
+                            <img src="./images/cursor-icon.svg" alt="cursor icon" width="47" height="47">
+                        </span>
+                        <h3 class="icon-title">Oson buyurtma qilish</h3>
+                        <p>Akademnashr.uz saytidan o’zingizga yoqqan kitobni sodda usulda buyurtma qila olasiz.</p>
+                    </li>
+                    <li class="card" data-aos="fade-up" data-aos-delay="200">
+                        <span class="circle">
+                            <img src="./images/stars-icon.svg" alt="stars icon" width="47" height="47">
+                        </span>
+                        <h3 class="icon-title">Eng sara kitoblar</h3>
+                        <p>Trenddagi eng ommabop, turli auditoriyalarga mo’ljallangan har xil janrdagi kitoblarni topa
+                            olasiz.</p>
+                    </li>
+                    <li class="card" data-aos="fade-up" data-aos-delay="300">
+                        <span class="circle">
+                            <img src="./images/thunder-icon.svg" alt="thunder icon" width="47" height="47">
+                        </span>
+                        <h3 class="icon-title">Tez yetkazib berish</h3>
+                        <p>O’zbekistonning ixtiyoriy hududiga 3 ish kuni ichida, xalqaro buyurtmalarni 10 ish kuni
+                            ichida
+                            yetkazib beriladi.</p>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+
+        <!-- uchinchi - cta -->
+        <section class="cta">
+            <div class="container cta-container">
+                <div class="cta-content" data-aos="fade-right">
+                    <h2 class="cta-title">Bolalar kitoblari uchun ajoyib aksiya!</h2>
+                    <p>Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va
+                        komikslar.</p>
+                    <p class="cta-paragraph">Aksiyadagi eng katta to’plamda <b>50 ta kitob</b>ni <b>350 ming</b> so’mga
+                        (aslida 383 ming so’m) sotib olishingiz mumkin.</p>
+                    <a href="#" class="orange-button">Buyurtma berish</a>
+                </div>
+
+                <img src="./images/sale-image.jpg" alt="Sale image" width="440" height="440" data-aos="fade-left">
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <!-- top -->
+                <div>
+                    <a href="index.html" data-aos="zoom-in">
+                        <img src="./images/akademnashr-logo.svg" alt="Logo">
+                    </a>
+                </div>
+
+                <!-- social medias -->
+                <div>
+                    <ul class="socials">
+                        <li data-aos="fade-up" data-aos-delay="100">
+                            <a class="footer-socials" href="#">
+                                <img src="./images/icon-telegram.svg" alt="Telegram">
+                            </a>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="200">
+                            <a class="footer-socials" href="#">
+                                <img src="./images/icon-facebook.svg" alt="Facebook">
+                            </a>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="300">
+                            <a class="footer-socials" href="#">
+                                <img src="./images/icon-instagram.svg" alt="Instagram">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- bottom -->
+            <div class="footer-bottom">
+                <div>
+                    <ul class="footer-links-wrapper">
+                        <li data-aos="fade-up" data-aos-delay="100">
+                            <a class="footer-link" href="">Bosh sahifa</a>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="150">
+                            <a class="footer-link" href="">Kitoblar</a>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="200">
+                            <a class="footer-link" href="">Aksiyalar</a>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="250">
+                            <a class="footer-link" href="">Yangiliklar</a>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="300">
+                            <a class="footer-link" href="">Kontaktlar</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div>
+                    <ul class="footer-links-wrapper">
+                        <li data-aos="fade-up" data-aos-delay="100">
+                            <a class="footer-link" href="">Ilmiy nashrlar</a>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="150">
+                            <a class="footer-link" href="">Ilmiy-ommabop nashrlar</a>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="200">
+                            <a class="footer-link" href="">Ma’rifiy nashrlar</a>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="250">
+                            <a class="footer-link" href="">Lug’atlar</a>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="300">
+                            <a class="footer-link" href="">Adabiy-badiiy nashrlar</a>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="350">
+                            <a class="footer-link" href="">Abituriyentlar uchun</a>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="400">
+                            <a class="footer-link" href="">Bolalar uchun</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div>
+                    <ul class="footer-links-wrapper">
+                        <li data-aos="fade-up" data-aos-delay="100">
+                            <a class="footer-link" href="#">Ko’p so’raladigan savollar</a>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="150">
+                            <a class="footer-link" href="#">Yetkazib berish haqida</a>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="200">
+                            <a class="footer-link" href="#">To’lov usullari haqida</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <ul class="footer-links-wrapper">
+                        <li data-aos="fade-up" data-aos-delay="100">
+                            <a class="footer-link" href="#">Bo’sh ish o’rinlari</a>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="150">
+                            <a class="footer-link" href="#">Biz bilan bog’lanish</a>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="200">
+                            <a class="footer-link" href="#">Maxfiylik nizomi</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+</body>
+
+</html>
