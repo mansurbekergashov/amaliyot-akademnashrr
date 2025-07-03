@@ -18,6 +18,7 @@ body{
 
 a{
     text-decoration: none;
+    transition: 0.3s ease;
 }
 .container{
     max-width: 1140px;
@@ -35,6 +36,7 @@ a{
     color: white;
     text-decoration: none;
     border-radius: 4px;
+    transition: 0.3s ease;
 }
 .orange-button:hover{
     opacity: 80%;
